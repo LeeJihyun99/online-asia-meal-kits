@@ -7,7 +7,7 @@
 
   .logo-container {
     height: 100%;
-    width: 130px;
+    width: 190px;
     padding: 20px;
   }
 
@@ -22,5 +22,13 @@
       padding: 10px 15px;
       cursor: pointer;
     }
+
+    .shopping-bag-icon{
+      width:15%;
+      cursor:pointer;
+      float:right;
+    }
   }
 }
+
+
