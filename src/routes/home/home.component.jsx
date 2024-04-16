@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router-dom';
 import koreaMain from '../../images/categories-main/category-main-korea.jpg';
 import vietnamMain from '../../images/categories-main/category-main-vietnam.jpg';
 import chinaMain from '../../images/categories-main/category-main-china.jpg';
@@ -36,7 +37,11 @@ const Home= () =>{
   ];
 
   return (
-    <Directory categories={categories}/>
+    <div>
+        <Outlet/>
+        <Directory categories={categories}/>
+    </div>
+    
   );
 };
 
