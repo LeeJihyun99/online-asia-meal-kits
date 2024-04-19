@@ -7,7 +7,7 @@
 
   .logo-container {
     height: 100%;
-    width: 190px;
+    width: 120px;
     padding: 20px;
   }
 
@@ -24,11 +24,13 @@
     }
 
     .shopping-bag-icon{
-      width:15%;
+      width:25%;
       cursor:pointer;
       float:right;
     }
   }
 }
-
+.navbar-container{
+  display:flex;
+}
 

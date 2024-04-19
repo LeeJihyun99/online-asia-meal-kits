@@ -11,26 +11,29 @@ const Navigation = ()=> {
         <Link className="logo-container" to='/'>
             <Logo className="logo"/>
         </Link>
-        <div className="nav-links-container">
-            <Link className="nav-link" to='/shop'>
-                SHOP
-            </Link>
+        <div className="navbar-container">
+            <div className="nav-links-container">
+                <Link className="nav-link" to='/shop'>
+                    SHOP
+                </Link>
+            </div>
+            <div className="nav-links-container">
+                <Link className="nav-link" to='/contact'>
+                    CONTACT
+                </Link>
+            </div>
+            <div className="nav-links-container">
+                <Link className="nav-link" to='/signin'>
+                    SIGN IN
+                </Link>
+            </div>
+            <div className="nav-links-container">
+                <Link className="nav-link" to='/buy'>
+                    <ShoppingBag className="shopping-bag-icon"/>
+                </Link>
+            </div>
         </div>
-        <div className="nav-links-container">
-            <Link className="nav-link" to='/contact'>
-                CONTACT
-            </Link>
-        </div>
-        <div className="nav-links-container">
-            <Link className="nav-link" to='/signin'>
-                SIGN IN
-            </Link>
-        </div>
-        <div className="nav-links-container">
-            <Link className="nav-link" to='/buy'>
-                <ShoppingBag className="shopping-bag-icon"/>
-            </Link>
-        </div>
+        
         </div>
         <Outlet/>
       </Fragment>
